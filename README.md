@@ -6,7 +6,9 @@ The purpose of this excercise was to help a friend, Steve, analyze stocks at the
 ## Results
 
 ### Stock Analysis
+![2017_vs_2018_Stocks](/resources/2017_vs_2018_stocks.png)
 
+Steve's parents were particularly interested in DAQO New Energy Corporation, ticker DQ, as a long term investment. DQ had a very high return for 2017; it was the highest return in the data set. 2018 was not as favorable for DQ; it had a significant loss for the year. More data year over year will need to be acquired to determine if DQ is a good investment for the long term. For the two years of data both "ENPH" and "RUN" had positive returns, both years. The analysis tool provided to Steve should help him make a better determination when more data is available. 
 
 ### VBA Script
 
