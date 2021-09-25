@@ -14,6 +14,9 @@ Steve's parents were particularly interested in DAQO New Energy Corporation, tic
 ### VBA Script
 
 
+![Refactored_Code](/VBA_Challenge.vbs) 
+
+
 ### Code Performance
 
 ## Summary
