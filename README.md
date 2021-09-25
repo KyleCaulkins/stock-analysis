@@ -13,15 +13,21 @@ Steve's parents were particularly interested in DAQO New Energy Corporation, tic
 
 ### VBA Script and Performance
 
+#### Original Code
 ![Original_Code](/VBA_original_script.vbs)
 
 ![Original_Script_Runtime](/Resources/2018Old_Analysis_Runtime.png)
 
+The original stock analysis is a macro designed to be run using Microsoft Excel. When run, the macro formats an output sheet with headers, uses user input year to select data to analyze, sums the total volume each ticker is traded, calculates annual return, outputs a table of total volume and annual return for each ticker, and creates a message box with the time taken to run. The code has a nested loop to sum the volume traded, the starting price, and the ending price for each ticker. The code is designed to loop over the worksheet of data to provide the outputs. The analysis takes a little over a second to run for the tweleve tickers used. 
+
+#### Refactored Code
 ![Refactored_Code](/VBA_Challenge.vbs) 
 
 ![Refactored2017_Runtime](/Resources/VBA_Challenge_2017.png)
 
 ![Refactored2018_Runtime](/Resources/VBA_Challenge_2018.png)
+
+The refactored code is also a macro designed to be run using Microsoft Excel. The refactored analysis requires the same user input for year, and then provides the same outputs for the analysis, as the original code. The primary difference in the refactored code is the use of arrays. There is an ticker index array, a ticker volumes array, a starting price array, and an ending price array. There is still a nested loop, but instead of looping through worksheet cells, the code loops through arrays. This made a significant difference in the recorded run time. The refactored code takes between a fifth to a quarter of the time it took to run the original code.
 
 ## Summary
 
